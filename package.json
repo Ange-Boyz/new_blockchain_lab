@@ -19,9 +19,13 @@
   },
   "homepage": "https://github.com/Ange-Boyz/new_blockchain_lab#readme",
   "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^4.0.12",
     "@nomicfoundation/hardhat-toolbox": "^7.0.0",
     "@types/node": "^22.19.19",
     "hardhat": "^3.7.0",
     "typescript": "~6.0.3"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.6.1"
   }
 }
