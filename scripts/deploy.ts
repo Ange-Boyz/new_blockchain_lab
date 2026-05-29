@@ -4,7 +4,7 @@ const { ethers, networkName } = await network.connect();
 
 console.log(`Deploying SimpleStorage to ${networkName}...`);
 
-const contract = await ethers.deployContract("SimpleStorage");
+const contract = await ethers.deployContract("LabToken");
 
 console.log("Waiting for deployment to confirm...");
 await contract.waitForDeployment();
